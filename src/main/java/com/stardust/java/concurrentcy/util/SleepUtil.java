@@ -1,8 +1,8 @@
-package com.stardust.java.concurrentcy.producer.consumer.problem;
+package com.stardust.java.concurrentcy.util;
 
 import java.util.Random;
 
-class SleepUtil {
+public class SleepUtil {
 
     private static Random random = new Random();
 
@@ -12,5 +12,13 @@ class SleepUtil {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+    }
+    
+    public static void sleep(long s){
+    	try {
+			Thread.sleep(s);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
     }
 }

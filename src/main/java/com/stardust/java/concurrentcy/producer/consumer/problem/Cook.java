@@ -2,6 +2,8 @@ package com.stardust.java.concurrentcy.producer.consumer.problem;
 
 import java.util.Queue;
 
+import com.stardust.java.concurrentcy.util.SleepUtil;
+
 public class Cook extends Thread {
 
     private Queue<Food> queue;
