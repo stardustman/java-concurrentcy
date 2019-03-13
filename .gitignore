@@ -1,0 +1,18 @@
+*.class
+/target/*
+/.settings/*
+
+# Package Files #
+*.jar
+*.war
+*.ear
+/target/
+/out/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
