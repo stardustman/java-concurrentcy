@@ -30,6 +30,8 @@ public class HiddenDeadLockTest {
 				
 			}
 		});
+		
+
 		//Thread.sleep(2000L);
 		teacherThread.start();
 		studentThread.start();
